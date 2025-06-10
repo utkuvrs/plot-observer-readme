@@ -145,14 +145,14 @@ https://chatgpt.com/c/2817a89c-889b-4c00-b484-e5507357c352
     color: AppColors.red,
     location: BannerLocation.topStart,
     variables: {
-      "apiUrl": "https://plotparkapiuat.plotpark.dk/",
+      "apiUrl": "https://example.apiurl.en/",
       "locale": "en_US",
     },
   );
   /// Production Environment
   FlavorConfig(
     variables: {
-      "apiUrl": "https://api.plotpark.dk/",
+      "apiUrl": "https://example.apiurl.en/",
       "locale": "da_DK",
     },
   );
